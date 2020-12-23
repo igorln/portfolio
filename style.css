@@ -1,0 +1,160 @@
+body {
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+}
+
+/* navbar */
+.navbar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background-color: #757575;
+  top: 0;
+  left: 0;
+}
+
+.navbar-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-item {
+  width: 100%;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  height: 6rem;
+  text-decoration: none;
+}
+
+.link-text {
+  display: none;
+  position: absolute;
+  font-size: 0.96rem;
+}
+
+.nav-link svg {
+  min-width: 2rem;
+  margin: 0 1.5rem;
+  transition: all 800ms;
+}
+
+.icon1:hover .text1 {
+  display: block;
+  margin-left: 1.05rem;
+}
+
+.item1:hover .icon1 svg{
+  display: none;
+}
+
+.icon2:hover .text2 {
+  display: block;
+  margin-left: 0.5rem;
+}
+
+.item2:hover .icon2 svg{
+  display: none;
+}
+
+.icon3:hover .text3 {
+  display: block;
+  margin-left: 0.9rem;
+}
+
+.item3:hover .icon3 svg{
+  display: none;
+}
+
+.icon4:hover .text4 {
+  display: block;
+  margin-left: 0.1rem;
+}
+
+.item4:hover .icon4 svg{
+  display: none;
+}
+
+.icon5:hover .text5 {
+  display: block;
+  margin-left: 0.2rem;
+}
+
+.item5:hover .icon5 svg{
+  display: none;
+}
+
+/* home */
+.page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.homeImage {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  background: fixed url(Night.png) center center/cover;
+}
+
+.homeAlignText {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.introduceText {
+  position: absolute;
+  width: auto;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.homeButton {
+  background-color: #ffffff00;
+  color: #ffffff;
+
+  border: 2px solid #ffffff;
+  padding: 12px 50px 12px 20px;
+  margin: 30px auto;
+
+  font-size: 19px;
+  display: flex;
+  cursor: pointer;
+}
+
+.homeButton:hover {
+  background-color: #633dd4;
+}
+
+.homeButton:hover .arrow {
+  transform: rotate(90deg);
+}
+
+.arrow {
+  position: absolute;
+  right: 38%;
+  vertical-align: middle;
+  transition: transform 500ms;
+}
+
+/* profile */
+h1 {
+  text-align: center;
+}
