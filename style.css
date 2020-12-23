@@ -5,7 +5,7 @@ body {
 
 /* navbar */
 .navbar {
-  width: 5rem;
+  width: 6%;
   height: 100vh;
   position: fixed;
   background-color: #757575;
@@ -94,7 +94,8 @@ body {
 
 /* home */
 .page {
-  width: 100vw;
+  margin-left: 6vw;
+  width: 94vw;
   height: 100vh;
 }
 
@@ -155,6 +156,93 @@ body {
 }
 
 /* profile */
-h1 {
+
+.profilePage{
+  color: #625959;
+}
+
+.profileTitle {
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 63px;
   text-align: center;
+  margin: 25px 0;
+}
+
+.profilePage hr {
+  width: 70%;
+}
+
+.split {
+  display: inline-block;
+  width: 49.65%;
+}
+
+.profilePic {
+  width: 50%;
+  display:block;
+  margin: 30px auto 10px;
+}
+
+.profilePage h2 {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.aboutMeText {
+  text-align: center;
+  font-size: 18px;
+  line-height: 35px;
+  margin: 5px auto;
+  width: 90%;
+}
+
+.aboutMeText a {
+  text-decoration: none;
+}
+
+.starsCase {
+  justify-content: flex-end;
+  flex-direction: row;
+  background: #868686;
+  padding: 5.5px 10px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+.bar {
+  display: flex;
+  width: 275px;
+  height: 39px;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.bar p {
+  width: 116px;
+  padding: 9px 0;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #04C2C9;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.fullStar {
+  color: #FFC04A;
+}
+
+.skillsLeft .bar {
+  margin-left: 27.68px;
+}
+
+.skillsRight .bar {
+  margin-left: 13.84px;
+}
+
+.languagesBox {
+  margin-top: 30px;
 }
