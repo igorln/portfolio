@@ -106,7 +106,7 @@ body {
   left: 0px;
   top: 0px;
   z-index: -1;
-  background: fixed url(Night.png) center center/cover;
+  background: fixed url(img/Night.png) center center/cover;
 }
 
 .homeAlignText {
