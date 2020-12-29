@@ -145,13 +145,17 @@ hr {
   width: 70%;
 }
 
+.minHeight {
+  min-height: 680px;
+}
+
 .split {
   display: flex;
   flex-wrap: nowrap;
 }
 
 .profilePic {
-  width: 50%;
+  width: 295px;
   display:block;
   margin: 30px auto 10px;
 }
@@ -216,6 +220,7 @@ hr {
 
 .abilities {
   margin-top: 23px;
+  max-width: 870px;
 }
 
 /* portfolio */
@@ -308,7 +313,7 @@ hr {
   align-items: flex-start;
 
   height: 75%;
-  width: 20%;
+  width: 270px;
   margin: 0 auto;
 }
 
