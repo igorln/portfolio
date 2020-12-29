@@ -44,7 +44,8 @@ body {
 .nav-link svg {
   min-width: 2rem;
   margin: 0 1.5rem;
-  transition: all 800ms;
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
 }
 
 .icon1:hover .text1 {
@@ -52,8 +53,8 @@ body {
   margin-left: 1.05rem;
 }
 
-.item1:hover .icon1 svg{
-  display: none;
+.item1:hover .icon1 svg , .item2:hover .icon2 svg , .item3:hover .icon3 svg , .item4:hover .icon4 svg{
+  opacity: 0;
 }
 
 .icon2:hover .text2 {
@@ -61,40 +62,19 @@ body {
   margin-left: 0.5rem;
 }
 
-.item2:hover .icon2 svg{
-  display: none;
-}
-
 .icon3:hover .text3 {
-  display: block;
-  margin-left: 0.9rem;
-}
-
-.item3:hover .icon3 svg{
-  display: none;
-}
-
-.icon4:hover .text4 {
   display: block;
   margin-left: 0.1rem;
 }
 
-.item4:hover .icon4 svg{
-  display: none;
-}
-
-.icon5:hover .text5 {
+.icon4:hover .text4 {
   display: block;
   margin-left: 0.2rem;
 }
 
-.item5:hover .icon5 svg{
-  display: none;
-}
-
 /* home */
 .page {
-  margin-left: 6vw;
+  margin-left: 5.3vw;
   width: 94vw;
   height: 100vh;
 }
@@ -134,14 +114,20 @@ body {
   border: 2px solid #ffffff;
   padding: 12px 50px 12px 20px;
   margin: 30px auto;
+  width: 127px;
+  height: 25px;
 
   font-size: 19px;
   display: flex;
   cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 .homeButton:hover {
   background-color: #633dd4;
+  border-color: #633dd4;
 }
 
 .homeButton:hover .arrow {
@@ -157,19 +143,20 @@ body {
 
 /* profile */
 
-.profilePage{
+.textColor{
   color: #625959;
 }
 
-.profileTitle {
+.pageTitle {
   font-weight: 500;
   font-size: 54px;
   line-height: 63px;
   text-align: center;
-  margin: 25px 0;
+  padding: 25px 0;
+  margin: 0;
 }
 
-.profilePage hr {
+hr {
   width: 70%;
 }
 
@@ -245,4 +232,77 @@ body {
 
 .languagesBox {
   margin-top: 30px;
+}
+
+/* portfolio */
+.portfolioPage {
+  background-color: #a9c8c9cc;
+  height: 100%;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 82.5%;
+}
+
+.ebuy {
+  background: url(img/ebuy.png) no-repeat center center/cover;
+}
+
+.colorGuess {
+  background: url(img/colorGuess.png) no-repeat center center/cover;
+}
+
+.imgSize {
+  position: relative;
+  width: 33%;
+  height: 42%;
+}
+
+.portfolioHideText {
+  background-color: #516acdef;
+  width: 100%;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+
+  flex-direction: column;
+  justify-content: space-around;
+  line-height: 28px;
+  font-size: 18px;
+  display: flex;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+}
+
+.projectTitle {
+  font-size: 24px;
+}
+
+.portfolioButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.portfolioButtons a {
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+
+  padding: 5px 13px;
+  width: 100px;
+  font-size: 20px;
+
+  cursor: pointer;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.ebuy:hover .portfolioHideText , .colorGuess:hover .portfolioHideText{
+  opacity: 1;
+}
+
+.portfolioHideText div {
+  margin: 0 20px;
 }
