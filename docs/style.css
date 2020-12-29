@@ -37,9 +37,11 @@ body {
 }
 
 .link-text {
-  display: none;
   position: absolute;
   font-size: 0.96rem;
+  color: white;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
 }
 
 .nav-link img {
@@ -48,7 +50,7 @@ body {
 }
 
 .icon1:hover .text1 , .icon2:hover .text2 , .icon3:hover .text3 , .icon4:hover .text4 {
-  display: block;
+  opacity: 1;
 }
 
 .item1:hover .icon1 img , .item2:hover .icon2 img , .item3:hover .icon3 img , .item4:hover .icon4 img {
