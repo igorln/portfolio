@@ -22,61 +22,25 @@
       <ul class="navbar-nav">
         <li class="nav-item item1">
           <a href="#home" class="nav-link icon1">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 9.185l7 6.514v6.301h-3v-5h-8v5h-3v-6.301l7-6.514zm0-2.732l-9 8.375v9.172h7v-5h4v5h7v-9.172l-9-8.375zm12 5.695l-12-11.148-12 11.133 1.361 1.465 10.639-9.868 10.639 9.883 1.361-1.465z"
-              />
-            </svg>
+            <img src="img/home.png">
             <span class="link-text text1">HOME</span>
           </a>
         </li>
         <li class="nav-item item2">
           <a href="#profile" class="nav-link icon2">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 2c2.757 0 5 2.243 5 5.001 0 2.756-2.243 5-5 5s-5-2.244-5-5c0-2.758 2.243-5.001 5-5.001zm0-2c-3.866 0-7 3.134-7 7.001 0 3.865 3.134 7 7 7s7-3.135 7-7c0-3.867-3.134-7.001-7-7.001zm6.369 13.353c-.497.498-1.057.931-1.658 1.302 2.872 1.874 4.378 5.083 4.972 7.346h-19.387c.572-2.29 2.058-5.503 4.973-7.358-.603-.374-1.162-.811-1.658-1.312-4.258 3.072-5.611 8.506-5.611 10.669h24c0-2.142-1.44-7.557-5.631-10.647z"
-              />
-            </svg>
+            <img src="img/user.png">
             <span class="link-text text2">PROFILE</span>
           </a>
         </li>
         <li class="nav-item item3">
           <a href="#portfolio" class="nav-link icon3">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M18 0h6v6h-6v-6zm-18 24h16v-24h-16v24zm18-9h6v-6h-6v6zm0 9h6v-6h-6v6z"
-              />
-            </svg>
+            <img src="img/layout.png">
             <span class="link-text text3">PROJECTS</span>
           </a>
         </li>
         <li class="nav-item item4">
-          <a href="#" class="nav-link icon4">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="34"
-              height="34"
-              viewBox="0 0 24 24"
-            >
-              <path
-                d="M12 3c5.514 0 10 3.592 10 8.007 0 4.917-5.145 7.961-9.91 7.961-1.937 0-3.383-.397-4.394-.644-1 .613-1.595 1.037-4.272 1.82.535-1.373.723-2.748.602-4.265-.838-1-2.025-2.4-2.025-4.872-.001-4.415 4.485-8.007 9.999-8.007zm0-2c-6.338 0-12 4.226-12 10.007 0 2.05.738 4.063 2.047 5.625.055 1.83-1.023 4.456-1.993 6.368 2.602-.47 6.301-1.508 7.978-2.536 1.418.345 2.775.503 4.059.503 7.084 0 11.91-4.837 11.91-9.961-.001-5.811-5.702-10.006-12.001-10.006zm0 14h-5v-1h5v1zm5-3h-10v-1h10v1zm0-3h-10v-1h10v1z"
-              />
-            </svg>
+          <a href="#contact" class="nav-link icon4">
+            <img src="img/speech.png">
             <span class="link-text text4">CONTACT</span>
           </a>
         </li>
@@ -103,20 +67,20 @@
         <h1 class="pageTitle profileTitle">Profile</h1>
         <hr />
         <div class="split">
-          <img class="profilePic" src="img/profilePic.png" />
-          <h2 class="aboutMeTitle">About me</h2>
-          <p class="aboutMeText">
-            I’m a web delevopment student at
-            <a href="https://www.betrybe.com/">Trybe</a>.<br />
-            I love the idea of use my skills to help solve problems. At this
-            moment I’m improving my skills learning React, because I know that
-            it will be very helpful in the future.
-          </p>
-        </div>
-        <div class="split">
-          <div class="skillsBox">
+          <div>
+            <img class="profilePic" src="img/profilePic.png" />
+            <h2 class="aboutMeTitle">About me</h2>
+            <p class="aboutMeText">
+              I’m a web delevopment student at
+              <a href="https://www.betrybe.com/">Trybe</a>.<br />
+              I love the idea of use my skills to help solve problems. At this
+              moment I’m improving my skills learning React, because I know that
+              it will be very helpful in the future.
+            </p>
+          </div>
+          <div class="abilities">
             <h2>Skills</h2>
-            <div class="split skillsLeft">
+            <div class="skillsBox">
               <div class="bar">
                 <p>CSS</p>
                 <div class="starsCase">
@@ -147,8 +111,6 @@
                   <span class="material-icons"> star </span>
                 </div>
               </div>
-            </div>
-            <div class="split skillsRight">
               <div class="bar">
                 <p>Git</p>
                 <div class="starsCase">
@@ -180,54 +142,52 @@
                 </div>
               </div>
             </div>
-          </div>
-          <div class="languagesBox">
-            <h2 class="">Languages</h2>
-            <div class="split skillsLeft">
-              <div class="bar">
-                <p>Portuguese</p>
-                <div class="starsCase">
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
+            <div class="languagesBox">
+              <h2>Languages</h2>
+              <div class="skillsBox">
+                <div class="bar">
+                  <p>Portuguese</p>
+                  <div class="starsCase">
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                  </div>
                 </div>
-              </div>
-              <div class="bar">
-                <p>English</p>
-                <div class="starsCase">
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
+                <div class="bar">
+                  <p>English</p>
+                  <div class="starsCase">
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                  </div>
+                </div>
+                <div class="bar">
+                  <p>Spanish</p>
+                  <div class="starsCase">
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </div>
+                </div>
+                <div class="bar">
+                  <p>Korean</p>
+                  <div class="starsCase">
+                    <span class="material-icons fullStar"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                    <span class="material-icons"> star </span>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="split skillsRight">
-              <div class="bar">
-                <p>Spanish</p>
-                <div class="starsCase">
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons"> star </span>
-                  <span class="material-icons"> star </span>
-                </div>
-              </div>
-              <div class="bar">
-                <p>Korean</p>
-                <div class="starsCase">
-                  <span class="material-icons fullStar"> star </span>
-                  <span class="material-icons"> star </span>
-                  <span class="material-icons"> star </span>
-                  <span class="material-icons"> star </span>
-                  <span class="material-icons"> star </span>
-                </div>
-              </div>
           </div>
-        </div>
       </div>
     </section>
     <!-- portfolio -->
@@ -241,8 +201,8 @@
               <div class="projectTitle">ebuy</div>
               <div>In this project I should create an e-commerce page using an external API.</div>
               <div class="portfolioButtons">
-                <a href="https://igorln.github.io/shoppingCart/">Website</a>
-                <a href="https://github.com/igorln/shoppingCart">Repository</a>
+                <a href="https://igorln.github.io/shoppingCart/" target="_blank">Website</a>
+                <a href="https://github.com/igorln/shoppingCart" target="_blank">Repository</a>
               </div>
             </div>
           </div>
@@ -251,16 +211,39 @@
               <div class="projectTitle">Color Guess</div>
               <div>It's a game that you need to recognize the color using the RGB code.</div>
               <div class="portfolioButtons">
-                <a href="https://igorln.github.io/colorGuess/">Website</a>
-                <a href="https://github.com/igorln/colorGuess">Repository</a>
+                <a href="https://igorln.github.io/colorGuess/" target="_blank">Website</a>
+                <a href="https://github.com/igorln/colorGuess" target="_blank">Repository</a>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <!-- contact -->
+    <section class="page">
+      <div id="contact" class="contactPage">
+        <h1 class="pageTitle">Contact</h1>
+        <hr />
+        <div class="contactIcons">
+          <a href="tel:+55-11-95079-8872">
+            <img src="img/phone.png">
+            <div>+55 11 95079-8872</div>
+          </a>
+          <a href="mailto:igorln96@gmail.com">
+            <img src="img/email.png">
+            <div>igorln96@gmail.com</div>
+          </a>
+          <a href="https://github.com/igorln" target="_blank">
+            <img src="img/github.png">
+            <div>@igorln</div>
+          </a>
+          <a href="https://www.linkedin.com/in/igor-nascimento/" target="_blank">
+            <img src="img/linkedin.png">
+            <div>@igor-nascimento</div>
+          </a>
+        </div>
       </div>
-    </footer>
+    </section>
     <script src="script.js"></script>
   </body>
 </html>
