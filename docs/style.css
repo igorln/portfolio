@@ -194,7 +194,7 @@ hr {
   font-size: 18px;
   align-items: center;
   text-align: center;
-  margin: 20px 0;
+  margin: 17px 0;
 }
 
 .bar p {
@@ -205,16 +205,22 @@ hr {
   color: #ffffff;
   background: #04C2C9;
   border-radius: 5px 0px 0px 5px;
+  margin: 0;
 }
 
 .fullStar {
   color: #FFC04A;
 }
 
+.languagesBox {
+  margin-top: 20px;
+}
+
 .skillsBox {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  align-content: space-around;
   align-items: center;
 }
 
