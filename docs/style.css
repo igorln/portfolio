@@ -9,8 +9,7 @@ body {
   height: 100vh;
   position: fixed;
   background-color: #757575;
-  top: 0;
-  left: 0;
+  z-index: 2;
 }
 
 .navbar-nav {
@@ -137,7 +136,7 @@ body {
   font-size: 54px;
   line-height: 63px;
   text-align: center;
-  padding: 25px 0;
+  padding: 25px 0 15px;
   margin: 0;
 }
 
@@ -146,7 +145,7 @@ hr {
 }
 
 .minHeight {
-  min-height: 680px;
+  height: auto;
 }
 
 .split {
@@ -213,7 +212,7 @@ hr {
 }
 
 .languagesBox {
-  margin-top: 20px;
+  margin: 20px 0 30px;
 }
 
 .skillsBox {
@@ -335,4 +334,87 @@ hr {
   font-size: 20px;
   text-decoration: none;
   color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar {
+    width: 100vw;
+    height: 5rem;
+    bottom: 0px;
+  }
+
+  .navbar-nav {
+    flex-direction: row;
+  }
+
+  .nav-link {
+    justify-content: center;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  .page {
+    margin: 0;
+    width: 100vw;
+  }
+
+  .arrow {
+    right: 25vw;
+  }
+
+  .introduceText {
+    margin: 2vw;
+    font-size: 8vw;
+  }
+
+  .split {
+    flex-wrap: wrap;
+  }
+
+  .profilePic {
+    width: 45vw;
+  }
+
+  .pageTitle {
+    padding: 6px;
+    font-size: 46px;
+  }
+
+  .profilePage h2 {
+    font-size: 30px;
+  }
+
+  .aboutMeText {
+    font-size: 15px;
+  }
+
+  .minHeight {
+    height: auto;
+  }
+
+  .flexBox {
+    flex-wrap: wrap;
+  }
+
+  .imgSize {
+    width: 85%;
+  }
+
+  .bar {
+    margin: 7px;
+  }
+
+  .contactIcons a img {
+  width: 46px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  .navbar {
+    top: 0;
+    left: 0;
+  }
 }
