@@ -59,7 +59,7 @@ body {
 /* home */
 .page {
   margin-left: 5.3vw;
-  width: 94vw;
+  width: 93vw;
   height: 100vh;
 }
 
@@ -146,6 +146,7 @@ hr {
 
 .minHeight {
   height: auto;
+  min-height: 100vh;
 }
 
 .split {
@@ -204,6 +205,26 @@ hr {
   color: #ffffff;
   background: #04C2C9;
   border-radius: 5px 0px 0px 5px;
+  margin: 0;
+}
+
+.barSkill {
+  display: flex;
+  height: 39px;
+  font-size: 18px;
+  align-items: center;
+  text-align: center;
+  margin: 17px 0;
+}
+
+.barSkill p{
+  width: 116px;
+  padding: 9px 0;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  background: #04C2C9;
+  border-radius: 5px;
   margin: 0;
 }
 
