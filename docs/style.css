@@ -270,6 +270,10 @@ hr {
   background: url(img/colorGuess.png) no-repeat center center/cover;
 }
 
+.movieCards {
+  background: url(img/movieCards.png) no-repeat center center/cover;
+}
+
 .imgSize {
   position: relative;
   width: 33%;
