@@ -318,7 +318,7 @@ hr {
   color: #ffffff;
 }
 
-.ebuy:hover .portfolioHideText , .colorGuess:hover .portfolioHideText{
+.ebuy:hover .portfolioHideText , .colorGuess:hover .portfolioHideText, .movieCards:hover .portfolioHideText{
   opacity: 1;
 }
 
