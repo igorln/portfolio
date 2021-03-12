@@ -260,6 +260,7 @@ hr {
   justify-content: space-around;
   align-items: center;
   height: 82.5%;
+  flex-wrap: wrap;
 }
 
 .ebuy {
