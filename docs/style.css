@@ -130,6 +130,10 @@ body {
 
 /* profile */
 
+.profilePage {
+  height: 100vh;
+}
+
 .textColor{
   color: #625959;
 }
@@ -153,6 +157,7 @@ hr {
 }
 
 .split {
+  position: absolute;
   display: flex;
   flex-wrap: nowrap;
 }
@@ -255,7 +260,7 @@ hr {
 /* portfolio */
 .portfolioPage {
   background-color: #a9c8c9cc;
-  height: 100%;
+  height: 100vh;
 }
 
 .flexBox {
@@ -452,3 +457,12 @@ hr {
     left: 0;
   }
 }
+
+@media only screen and (min-height: 800px) {
+  .split {
+  position: absolute;
+  top: 150%;
+  transform: translateY(-50%);
+}
+}
+
