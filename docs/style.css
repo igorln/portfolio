@@ -260,7 +260,7 @@ hr {
 /* portfolio */
 .portfolioPage {
   background-color: #a9c8c9cc;
-  height: 100vh;
+  height: auto;
 }
 
 .flexBox {
