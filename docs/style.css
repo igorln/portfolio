@@ -294,8 +294,8 @@ hr {
   background: url(img/ebuy.png) no-repeat center center/cover;
 }
 
-.colorGuess {
-  background: url(img/colorGuess.png) no-repeat center center/cover;
+.moveIt {
+  background: url(img/moveIt.png) no-repeat center center/cover;
 }
 
 .movieCards {
@@ -353,7 +353,7 @@ hr {
   color: #ffffff;
 }
 
-.ebuy:hover .portfolioHideText , .colorGuess:hover .portfolioHideText , .movieCards:hover .portfolioHideText , .wallet:hover .portfolioHideText {
+.ebuy:hover .portfolioHideText , .moveIt:hover .portfolioHideText , .movieCards:hover .portfolioHideText , .wallet:hover .portfolioHideText {
   opacity: 1;
 }
 
